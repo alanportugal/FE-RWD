@@ -3,12 +3,15 @@
 <head>
   <title>FESC</title>
   <meta charset="utf-8">
+  
+  <!-- FACEBOOK Metatags -->
   <meta property="og:title" content="Florida Energy Systems Consortium">
   <meta property="og:description" content="Universities Addressing Florida's Energy Needs">
   <meta property="og:image" content="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/header_logo.png">
   <meta property="og:url" content="https://alanportugal.github.io/FE-RWD/">
   <meta property="og:type" content="website">
   
+  <!-- TWITTER Metatags -->
   <meta name="twitter:title" content="Florida Energy Systems Consortium">
   <meta name="twitter:description" content="Universities Addressing Florida's Energy Needs">
   <meta name="twitter:image" content="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/header_logo.png">
@@ -22,9 +25,41 @@
     gtag('js', new Date());
     gtag('config', 'UA-117510616-1');
   </script>
+  
+  <!-- FACEBOOK JavaScript Media Button -->
+  <script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+  
+  <!-- TWITTER JavaScript Media Button -->
+  <script>
+    window.twttr = (function(d, s, id){
+      var js, fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {};
+      if (d.getElementById(id)) return t;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+      t._e = [];
+      t.ready = function(f) {
+        t._e.push(f);
+      };
+      return t;
+    }(document, "script", "twitter-wjs"));
+  </script>
+    
 </head>
 
 <body>
   TEST
+  <a class="twitter-share-button" href="https://twitter.com/intent/tweet">Tweet</a>
+  <div id="fb-root"></div>
 </body>
 </html>
