@@ -1,3 +1,7 @@
+$bgcolor: rgb(255, 255, 255);
+$google-font: 'Open Sans';
+
 body {
-	background-color: white;
+	background-color: $bgcolor;
+	font-family: $google-font, sans-serif;
 }
