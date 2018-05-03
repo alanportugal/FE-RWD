@@ -13,4 +13,30 @@ nav.main-nav a {
   padding: 6px 12px;
   text-decoration: none; }
 
+nav.footer-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+nav.footer-nav li {
+  display: inline-block; }
+nav.footer-nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  background-color: #f0f0f0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black; }
+
+nav.school-icons-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+nav.school-icons-nav li {
+  display: inline-block; }
+nav.school-icons-nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none; }
+
 /*# sourceMappingURL=stylesheet.css.map */
