@@ -2,13 +2,13 @@ body {
   background-color: white;
   font-family: "Open Sans", sans-serif; }
 
-nav ul {
+nav.main-nav ul {
   margin: 0;
   padding: 0;
   list-style: none; }
-nav li {
+nav.main-nav li {
   display: inline-block; }
-nav a {
+nav.main-nav a {
   display: block;
   padding: 6px 12px;
   text-decoration: none; }
