@@ -102,13 +102,17 @@ p::first-letter {
   color: darkblue;
 }
 
-.twitter-share-button {
-  margin:0 auto;
-  display:block;
+table
+{ 
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.fb-share-button {
-  margin:0 auto;
-  display:block;
+div.centered 
+{
+  text-align: center;
 }
 
+td {
+  vertical-align: top;
+}
