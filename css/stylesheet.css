@@ -39,4 +39,36 @@ nav.school-icons-nav a {
   padding: 6px 12px;
   text-decoration: none; }
 
+header {
+  background-color: #e6f2ff;
+  text-align: center; }
+
+.footer-nav {
+  background-color: #e6f2ff; }
+
+.school-icons-nav {
+  background-color: #e6f2ff; }
+
+h1, h3 {
+  text-align: center; }
+
+h4 {
+  padding: 6px 12px; }
+
+img {
+  float: right;
+  padding: 6px 12px; }
+
+p {
+  padding: 6px 12px; }
+
+p::first-letter {
+  font-size: 150%;
+  font-weight: bold;
+  color: darkblue; }
+
+.twitter-share-button, .fb-share-button {
+  margin: 0 auto;
+  display: block; }
+
 /*# sourceMappingURL=stylesheet.css.map */

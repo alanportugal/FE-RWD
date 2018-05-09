@@ -1,5 +1,8 @@
 $bgcolor: rgb(255, 255, 255);
 $bgcolor-footer-nav: rgb(240, 240, 240);
+$bgcolor-header: rgb(230, 242, 255);
+$bgcolor-footer: rgb(230, 242, 255);
+$bgcolor-school-icons-nav: rgb(230, 242, 255);
 $google-font: 'Open Sans';
 
 body {
@@ -57,4 +60,45 @@ nav.school-icons-nav {
     padding: 6px 12px;
     text-decoration: none;
   }
+}
+
+header {
+  background-color: $bgcolor-header;
+  text-align: center;
+}
+
+.footer-nav {
+  background-color: $bgcolor-footer;
+}
+
+.school-icons-nav {
+  background-color: $bgcolor-school-icons-nav;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+h4 {
+  padding: 6px 12px;
+}
+
+img {
+    float: right;
+    padding: 6px 12px;
+}
+
+p{
+  padding: 6px 12px;
+}
+
+p::first-letter {
+  font-size: 150%;
+  font-weight: bold;
+  color: darkblue;
+}
+
+.twitter-share-button, .fb-share-button {
+  margin:0 auto;
+  display:block;
 }
