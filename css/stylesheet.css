@@ -55,6 +55,9 @@ h1, h3 {
 h4 {
   padding: 6px 12px; }
 
+a {
+  padding: 6px 12px; }
+
 img {
   float: right;
   padding: 6px 12px; }
@@ -67,7 +70,11 @@ p::first-letter {
   font-weight: bold;
   color: darkblue; }
 
-.twitter-share-button, .fb-share-button {
+.twitter-share-button {
+  margin: 0 auto;
+  display: block; }
+
+.fb-share-button {
   margin: 0 auto;
   display: block; }
 
