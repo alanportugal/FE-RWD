@@ -62,7 +62,11 @@
         return t;
       }(document, "script", "twitter-wjs"));
     </script>
-    <title>FESC Charts</title> 
+    <title>FESC Charts</title>
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="js/script.js"></script>
+
   </head>
 
 <body>
@@ -92,7 +96,8 @@
     <article>
       <h3>Renewable Energy Production in Florida</h3>
       <!--Div that will hold the REP in Florida chart-->
-      <div id="chart_REP" width="500" height="500"></div>
+      <div id="chart_REP"></div>
+      <hr />
     </article>
 
     <article>
