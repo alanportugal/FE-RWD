@@ -154,11 +154,6 @@ function drawATECchart(){
 		legend: { position: 'none' },
 		width: 600,
 		height: 400,
-		trendlines: {
-				0: {
-				color: 'green',
-			}
-    	}
     };
 
     var chart = new google.charts.Bar(document.getElementById('chart_ATEC'));
